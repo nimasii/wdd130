@@ -9,39 +9,39 @@ nav a {
 }
 nav a:hover {
     background-color: #2F4858;
-    color: #FCFFEB;
+    color: #3D77A4;
     text-decoration: underline;
 }
 .home-title {
-    color: #FCFFEB;
+    color: #2F4858;
 }
 h4 {
-    color: #FCFFEB;
+    color: #2F4858;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
     text-align: center;
-    background-color: #14AAE1;
+    background-color: #3D77A4;
 }
 .book, .join {
-    background-color: #14AAE1;
-    color: #2F4858;
+    background-color: #3D77A4;
+    color: #FCFFEB;
     text-decoration: none;
 }
 .msg {
-    background-color: #14AAE1;
+    background-color: #3D77A4;
 }
 .msg h2 {
-    color: #2F4858;
+    color: #FCFFEB;
 }
 .msg p {
-    color: #2F4858;
+    color: #FCFFEB;
 }
 .book:hover, .join:hover {
-    background-color: #2F4858;
-    color: #14AAE1;
+    background-color: #FCFFEB;
+    color: #2F4858;
 }
 main section {
     text-align: center;
@@ -51,7 +51,7 @@ main section {
     background-color: #3D77A4;
 }
 body {
-    background-color: #3D77A4;
+    background-color: #FCFFEB;
 }
 header {
     background-color: #FCFFEB;
