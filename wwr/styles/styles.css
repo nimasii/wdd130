@@ -1,0 +1,73 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: #2F4858;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #2F4858;
+    color: #FCFFEB;
+    text-decoration: underline;
+}
+.home-title {
+    color: #FCFFEB;
+}
+h4 {
+    color: #FCFFEB;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+    background-color: #14AAE1;
+}
+.book, .join {
+    background-color: #14AAE1;
+    color: #2F4858;
+    text-decoration: none;
+}
+.msg {
+    background-color: #14AAE1;
+}
+.msg h2 {
+    color: #2F4858;
+}
+.msg p {
+    color: #2F4858;
+}
+.book:hover, .join:hover {
+    background-color: #2F4858;
+    color: #14AAE1;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #3D77A4;
+}
+body {
+    background-color: #3D77A4;
+}
+header {
+    background-color: #FCFFEB;
+}
+footer {
+    background-color: #FCFFEB;
+}
+footer h3 {
+    color: #2F4858;
+    text-decoration: underline;
+}
+footer a {
+    color: #2F4858;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FCFFEB;
+    background-color: #2F4858;
+}
