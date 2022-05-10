@@ -71,3 +71,7 @@ footer a:hover {
     color: #FCFFEB;
     background-color: #2F4858;
 }
+.logo {
+    width: 80px;
+    height: 80px;
+}
