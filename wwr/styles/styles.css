@@ -230,3 +230,70 @@ footer .social img {
       margin-top: 25px;
   }
 }
+
+/*Start of css for the prices and dates page of the rafting webpage*/
+
+h2 {
+  text-align: center;
+  margin-top: 25px;
+  color: #3d77a4;
+}
+
+#info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: -150px;
+  grid-row-gap: 75px;
+}
+
+.grand-canyon-3-night {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  
+}
+
+#grand-canyon1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grand-canyon-6-night {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#grand-canyon2 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.salmon-river {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#salmon-river {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.desolation {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+#desolation {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+#info img {
+  width: 325px;
+  height: 325px;
+  display: block;
+  margin: auto;
+  border: 10px solid #2f4858;
+}
