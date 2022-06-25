@@ -1,0 +1,70 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#services-offered img {
+    height: auto;
+    width: 40%;
+}
+
+/*CSS for Apply Page*/
+#apply-images  img{
+    width: 40%;
+    height: auto;
+}
+
+/*CSS for Gallery Page*/
+#gallery img {
+    width: 75%;
+    height: auto;
+}
+
+.gallery-column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+.gallery-column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+.gallery-column img:hover {
+    opacity: 1;
+  }
+  
+.gallery-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.container {
+    position: relative;
+    display: none;
+    width: 30%;
+    height: auto;
+  }
+  
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }

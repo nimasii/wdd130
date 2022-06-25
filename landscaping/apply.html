@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teton Landscape | Apply</title>
+    <link rel="stylesheet" href="styles/stlyes.css">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/teton_landscape_logo.jpg" alt="Teton Landscape">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="apply.html">Apply</a>
+            <a href="contact-us">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero">
+            <img id="hero-img" src="images/hero.jpeg" alt="Hero Image">
+        </div>
+
+        <section id="apply-now">
+            <h2>Apply Now</h2>
+            <p>Here at Teton Landscape, we are always looking for talented and passionate people to join our team! If you're interested, please take a moment and apply to join our talented team.</p>
+        </section>
+
+        <section id="apply-images">
+            <img src="images/apply1.jpeg" alt="Image One">
+            <img src="images/apply2.jpeg" alt="Image Two">
+        </section>
+        
+        <form id="information" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="user_first_name">
+                </li>
+                <li>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="user_last_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <lable for="phone-number">Phone Number:</lable>
+                    <input type="text" id="phone-number" name="user_phone_number">
+                </li>
+                <li>
+                    <lable for="mailing-adress">Mailing Adress:</lable>
+                    <input type="text" id="mailing-adress" name="user_mailing_adress">
+                </li>
+                <li>
+                    <lable for="contact-method">Prefered Contact Method:</lable>
+                    <select name="contact_method" id="contact-method">
+                        <option value="text">Text</option>
+                        <option value="call">Call</option>
+                        <option value="email">E-mail</option>
+                    </select>
+                </li>
+                <li>
+                    <lable for="resume">Resume:</lable>
+                    <input type="file" id="resume" name="user_resume">
+                </li>
+
+                <li>
+                    <label for="msg">Additional Information:</label>
+                    <textarea id="msg" name="user_information"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Submit Your Application</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+
+    <footer>
+        <h3>Teton Landscape &copy; 20XX - Jacob Campbell</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+    </footer>
+</body>
+<script>
+    const feedbackElement = document.getElementById('information');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_first_name.value +'! Thank you for your application. We will get back with you as soon as possible!';
+        feedbackElement.style.display = "block";
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+</html>

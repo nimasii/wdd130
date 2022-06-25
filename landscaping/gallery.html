@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teton Landscape | Gallery</title>
+    <link rel="stylesheet" href="styles/stlyes.css">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/teton_landscape_logo.jpg" alt="Teton Landscape">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="apply.html">Apply</a>
+            <a href="contact-us">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero">
+            <img id="hero-img" src="images/hero.jpeg" alt="Hero Image">
+        </div>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <div class="gallery-row">
+                <div class="gallery-column">
+                  <img src="images/gallery1.jpeg" alt="Image One" onclick="myFunction(this);">
+                </div>
+                <div class="gallery-column">
+                  <img src="images/gallery2.jpeg" alt="Image Two" onclick="myFunction(this);">
+                </div>
+                <div class="gallery-column">
+                  <img src="images/gallery3.jpg" alt="Image Three" onclick="myFunction(this);">
+                </div>
+                <div class="gallery-column">
+                  <img src="images/gallery4.JPG" alt="Image Four" onclick="myFunction(this);">
+                </div>
+              </div>
+              
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <img id="expandedImg" style="width:100%">
+              
+                <div id="imgtext"></div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Teton Landscape &copy; 20XX - Jacob Campbell</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+    </footer>
+</body>
+<script src="scripts/gallery.js"></script>
+</html>
