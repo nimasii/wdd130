@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teton Landscape | Gallery</title>
-    <link rel="stylesheet" href="styles/stlyes.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
+<body id="content">
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/teton_landscape_logo.jpg" alt="Teton Landscape">
+            <img class="logo" src="images/teton_landscape_logo_main.jpg" alt="Teton Landscape">
+            <img class="logo_text" src="images/teton_landscape_logo.jpg" alt="Logo Text">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -21,55 +24,74 @@
         </nav>
     </header>
 
-    <main>
-        <div id="hero">
-            <img id="hero-img" src="images/hero.jpeg" alt="Hero Image">
-        </div>
-
-        <section id="gallery">
-            <h2>Gallery</h2>
-
-            <div class="gallery-row">
-                <div class="gallery-column">
-                  <img src="images/gallery1.jpeg" alt="Image One" onclick="myFunction(this);">
-                </div>
-                <div class="gallery-column">
-                  <img src="images/gallery2.jpeg" alt="Image Two" onclick="myFunction(this);">
-                </div>
-                <div class="gallery-column">
-                  <img src="images/gallery3.jpg" alt="Image Three" onclick="myFunction(this);">
-                </div>
-                <div class="gallery-column">
-                  <img src="images/gallery4.JPG" alt="Image Four" onclick="myFunction(this);">
-                </div>
-              </div>
-              
-              <div class="container">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-              
-                <img id="expandedImg" style="width:100%">
-              
-                <div id="imgtext"></div>
-              </div>
-        </section>
-    </main>
-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    
+    <div class="header" id="myHeader">
+      <h2>Photo Gallery</h2>
+      <p>Click on the buttons to change the grid view.</p>
+      <button class="btn active" onclick="two()">2</button>
+      <button class="btn" onclick="four()">4</button>
+    </div>
+    
+    <div class="row"> 
+      <div class="column">
+        <img src="/images/gallery1.jpeg" style="width:100%">
+        <img src="/images/gallery2.jpeg" style="width:100%">
+        <img src="/images/gallery3.jpg" style="width:100%">
+        <img src="/images/gallery4.JPG" style="width:100%">
+        <img src="/images/gallery5.jpg" style="width:100%">
+        <img src="/images/gallery6.jpg" style="width:100%">
+        <img src="/images/gallery7.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="/images/gallery8.JPG" style="width:100%">
+        <img src="/images/gallery9.jpg" style="width:100%">
+        <img src="/images/gallery10.jpg" style="width:100%">
+        <img src="/images/gallery11.JPG" style="width:100%">
+        <img src="/images/gallery12.jpg" style="width:100%">
+        <img src="/images/gallery13.jpg" style="width:100%">
+        <img src="/images/gallery14.jpg" style="width:100%">
+      </div>  
+      <div class="column">
+        <img src="/images/gallery15.jpg" style="width:100%">
+        <img src="/images/gallery16.jpg" style="width:100%">
+        <img src="/images/gallery17.jpg" style="width:100%">
+        <img src="/images/gallery18.JPG" style="width:100%">
+        <img src="/images/gallery1.jpeg" style="width:100%">
+        <img src="/images/gallery2.jpeg" style="width:100%">
+        <img src="/images/gallery3.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="/images/gallery4.JPG" style="width:100%">
+        <img src="/images/gallery5.jpg" style="width:100%">
+        <img src="/images/gallery6.jpg" style="width:100%">
+        <img src="/images/gallery7.jpg" style="width:100%">
+        <img src="/images/gallery8.JPG" style="width:100%">
+        <img src="/images/gallery9.jpg" style="width:100%">
+        <img src="/images/gallery10.JPG" style="width:100%">
+      </div>  
+    </div>    
+    </body>
+    </html>
+    
     <footer>
         <h3>Teton Landscape &copy; 20XX - Jacob Campbell</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
+    <script src="scripts/gallery.js"></script>
 </body>
-<script src="scripts/gallery.js"></script>
 </html>

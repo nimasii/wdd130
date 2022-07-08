@@ -14,7 +14,7 @@
   --headline-color-on-color: #141414; /* headlines on a colored background */ 
   --paragraph-color-on-white: #141414; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #f5f5f5; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #666666  ;
+  --paragraph-background-color: #666666;
   --nav-link-color: #141414;
   --nav-background-color: #666666;
   --nav-hover-link-color: #f5f5f5;
@@ -102,7 +102,6 @@ nav a:hover {
 
 #hero-img {
   width: 100%;
-  border-bottom: 5px solid #141414;
 }
 
 #home-grid {
@@ -220,56 +219,3 @@ footer .social img {
     width: 40%;
     height: auto;
 }
-
-
-
-/*CSS for Gallery Page*/
-#gallery img {
-    width: 75%;
-    height: auto;
-}
-
-.gallery-column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
-  
-.gallery-column img {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-.gallery-column img:hover {
-    opacity: 1;
-  }
-  
-.gallery-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-.container {
-    position: relative;
-    display: none;
-    width: 30%;
-    height: auto;
-  }
-  
-#imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-  }
-  
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-  }
