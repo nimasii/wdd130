@@ -31,52 +31,52 @@
 
         <section>
             <h2>Apply Now</h2>
-            <p id="text">Here at Teton Landscape, we are always looking for talented and passionate people to join our team! If
+            <p id="text">Here at Teton Landscape, we are always looking for talented and passionate people to join our
+                team! If
                 you're interested, please take a moment and apply to join our talented team.</p>
         </section>
 
-        <section id="apply-now">
-                <img id="image1" src="images/apply1.jpeg" alt="Image One">
+        <form id="apply-now">
+            <img id="image1" src="images/apply1.jpeg" alt="Image One">
+            <div id="first-name">
+                <label>First Name:<br></label>
+                <input type="text" name="user_first_name">
+            </div>
+            <div id="last-name">
+                <label>Last Name:<br></label>
+                <input type="text" name="user_last_name">
+            </div>
+            <div id="mail">
+                <label>E-mail:<br></label>
+                <input type="email" name="user_email">
+            </div>
+            <div id="phone-number">
+                <label>Phone Number:<br></label>
+                <input type="text" name="user_phone_number">
+            </div>
+            <div id="mailing-address">
+                <label>Mailing Address:<br></label>
+                <input type="text" name="user_mailing_adress">
+            </div>
+            <div id="contact-method">
+                <label>Prefered Contact Method:<br></label>
+                <select name="contact_method">
+                    <option value="text">Text</option>
+                    <option value="call">Call</option>
+                    <option value="email">E-mail</option>
+                </select>
+            </div>
+            <div id="resume">
+                <label>Resume:<br></label>
+                <input type="file" name="user_resume">
+            </div>
 
-                    <p id="first-name">
-                        <label for="first-name">First Name:<br></label>
-                        <input type="text" name="user_first_name">
-                    </p>
-                    <p id="last-name">
-                        <label for="last-name">Last Name:<br></label>
-                        <input type="text" name="user_last_name">
-                    </p>
-                    <p id="mail">
-                        <label for="mail">E-mail:<br></label>
-                        <input type="email" name="user_email">
-                    </p>
-                    <p id="phone-number">
-                        <lable for="phone-number">Phone Number:<br></lable>
-                        <input type="text" name="user_phone_number">
-                    </p>
-                    <p id="mailing-address">
-                        <lable for="mailing-address">Mailing Address:<br></lable>
-                        <input type="text" name="user_mailing_adress">
-                    </p>
-                    <p id="contact-method">
-                        <lable for="contact-method">Prefered Contact Method:<br></lable>
-                        <select name="contact_method">
-                            <option value="text">Text</option>
-                            <option value="call">Call</option>
-                            <option value="email">E-mail</option>
-                        </select>
-                    </p>
-                    <p id="resume">
-                        <lable for="resume">Resume:<br></lable>
-                        <input type="file" name="user_resume">
-                    </p>
-
-                    <p id="msg">
-                        <label for="msg">Additional Information:<br></label>
-                        <textarea name="user_information"></textarea>
-                    </p>
-                    <button class="button" type="submit">Submit Your Application<br></button>
-        </section>
+            <div id="msg">
+                <label>Additional Information:<br></label>
+                    <textarea name="user_information"></textarea>
+            </div>
+            <button class="button" type="submit">Submit Your Application<br></button>
+        </form>
     </main>
 
     <footer>
@@ -87,13 +87,11 @@
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
             </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
             <a href="https://instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
     </footer>
 </body>
+
 </html>

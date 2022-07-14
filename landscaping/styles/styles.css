@@ -53,6 +53,11 @@ p {
   font-size: large;
 }
 
+label {
+  font-family: var(--paragraph-font);
+  font-size: large;
+}
+
 dl {
   font-family: var(--paragraph-font);
   font-size: large;
