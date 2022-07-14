@@ -14,6 +14,8 @@ h2 {
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 60px 60px 60px 60px 150px 60px;
     margin-top: 50px;
+    font-size: large;
+    font-family: var(--paragraph-font);
 }
 
 #image1 {
