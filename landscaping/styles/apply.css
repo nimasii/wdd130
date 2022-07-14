@@ -1,0 +1,112 @@
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#text {
+    text-align: left;
+    margin: 5px 200px;
+}
+
+
+#apply-now {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 150px 60px;
+    margin-top: 50px;
+}
+
+#image1 {
+    grid-column: 1/2;
+    grid-row: 1/8;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: 5px solid #141414;
+}
+
+#first-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 50px;
+}
+
+#last-name {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#mail {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin-left: 50px;
+}
+
+#phone-number {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 50px;
+}
+
+#mailing-address {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#contact-method {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: 50px;
+}
+
+#resume {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#msg {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin-left: 50px;
+}
+
+.button {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    justify-self: center;
+    align-self: center;
+    margin-top: 50px;
+
+    background-color: #141414;
+    color: #F5F5F5;
+    line-height: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: #F5F5F5;
+    border-color: #f5f5f5;
+    color: #141414;
+  }
+
+input {
+    width: 75%;
+}
+
+#mail input {
+    width: 86.5%;
+}
+
+select {
+    width: 30%;
+    height: 25px;
+}
+
+textarea {
+    width: 86.5%;
+    height: 90%
+}

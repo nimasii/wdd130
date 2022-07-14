@@ -33,6 +33,11 @@ a {
   font-size: x-large;
 }
 
+button {
+  font-family: var(--paragraph-font);
+  font-size: x-large;
+}
+
 h2 {
   font-family: var(--heading-font);
   font-size: xx-large;
