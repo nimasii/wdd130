@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #666666;
+  --secondary-color: #141414;
+  --accent1-color: #F5F5F5;
+  --accent2-color: #017F01;
+  --accent3-color: #80FF00;
+
+  --heading-font: 'Poppins', sans-serif;
+  --paragraph-font: 'Bitter', serif;
+
+  --headline-color-on-white: #141414;  /* headlines on a white background */ 
+  --headline-color-on-color: #141414; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #141414; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f5f5f5; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #666666;
+  --nav-link-color: #141414;
+  --nav-background-color: #666666;
+  --nav-hover-link-color: #f5f5f5;
+  --nav-hover-background-color: #017F01;
+}
+
 /*CSS for Gallery Page*/
 * {
     box-sizing: border-box;
@@ -38,17 +62,18 @@
     border: none;
     outline: none;
     padding: 10px 16px;
-    background-color: #f1f1f1;
+    background-color: #017F01;
     cursor: pointer;
     font-size: 18px;
+    color: #F5F5F5;
   }
   
   .btn:hover {
-    background-color: #ddd6d6;
+    background-color: #80FF00;
   }
   
   .btn.active {
-  background-color: #017F01;
-    color: white;
+  background-color: #80FF00;
+    color: #F5F5F5;
   }
   
