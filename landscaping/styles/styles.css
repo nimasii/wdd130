@@ -125,16 +125,18 @@ nav a:hover {
 
 #services-offered-img {
   height: auto;
-  width: 80%;
+  width: 85%;
   grid-column: 1/2;
   grid-row: 1/3;
   justify-self: center;
+  align-self: center;
   border: 5px solid #141414;
+  margin-top: 7%;
 }
 
 #about-us {
   background-color: #017F01;
-  width: 80%;
+  width: 85%;
   height: 90%;
   justify-self: center;
   border: 5px solid #141414;
@@ -142,8 +144,8 @@ nav a:hover {
 
 #services-offered {
   background-color: #017F01;
-  width: 80%;
-  height: 100%;
+  width: 85%;
+  height: 110%;
   justify-self: center;
   border: 5px solid #141414;
 }
